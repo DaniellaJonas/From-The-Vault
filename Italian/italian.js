@@ -5,3 +5,7 @@ function sweet(){
 function salty(){
     window.location.href = "./Salty/saltyIt.html"
 }
+
+function home(){
+    window.location.href = "../index.html"
+}
