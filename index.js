@@ -21,7 +21,3 @@ function frenchOC(){
 function indianOC(){
     window.location.href = "./Indian/indian.html"
 }
-
-function arabOC(){
-    window.location.href = "./Arab/arab.html"
-}
