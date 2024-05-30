@@ -1,7 +1,53 @@
-body{
+body {
     background-color: rgba(255, 245, 232, 0.425);
-    color:rgb(141, 0, 24);
+    color: rgb(141, 0, 24);
     font-family: "Satisfy", cursive;
     font-weight: 400;
     font-style: normal;
+}
+
+.ul {
+    font-family: "Merriweather", serif;
+    font-weight: 300;
+    font-style: normal;
+    font-size: 14px;
+    list-style: none;
+    margin: 10px;
+    padding: 0;
+}
+
+#content {
+    display: flex;
+    justify-content: center;
+}
+
+#ingredients {
+    flex: 1;
+    margin-right: 20px;
+}
+
+#instructions {
+    flex: 1;
+    margin-left: 1%;
+    margin-right:300px;
+}
+
+h1, h2 {
+    font-family: "Merriweather", serif;
+    font-weight: 700;
+    font-style: normal;
+}
+
+.headers {
+    font-family: "Satisfy", cursive; 
+}
+
+#imgs{
+    flex: 1;
+    margin-left: 1%;
+    margin-right:30px;
+}
+
+#topimg{
+    margin-top:40px;
 }
