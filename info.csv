@@ -1,7 +1,7 @@
-Cuisine,Popularity,Availability,Average Cost,Notable Ingredients,Typical Flavors,Dietary Considerations
-Chinese,9,Widely Available,$10 - $20,Soy Sauce, Ginger, Garlic,Savory, Umami, Spicy,Vegetarian, Gluten-Free Options
-French,8,Widely Available,$20 - $50,Butter, Wine, Herbs de Provence,Rich, Creamy, Herbaceous,Vegetarian Options
-Indian,9,Widely Available,$10 - $20,Spices, Lentils, Basmati Rice,Spicy, Aromatic,Vegan, Vegetarian, Gluten-Free
-Italian,9,Widely Available,$15 - $30,Olive Oil, Tomatoes, Parmesan Cheese,Savory, Herbal, Sweet,Vegetarian Options
-Japanese,8,Widely Available,$15 - $40,Soy Sauce, Rice, Seaweed,Umami, Savory, Light,Vegetarian, Gluten-Free Options
-Mediterranean,7,Moderately Available,$15 - $35,Olive Oil, Lemon, Garlic,Fresh, Tangy, Herbaceous,Vegan, Vegetarian
+Cuisine,Cost to Make Meal,Essential Ingredients,Key Flavors,Dietary Considerations,Typical Dishes,Required Cooking Skills
+Chinese,$15 - $25,"Soy Sauce, Ginger, Garlic","Savory, Umami, Spicy","Vegetarian, Gluten-Free Options","Stir-fry, Dumplings",Intermediate
+French,$20 - $40,"Butter, Wine, Herbs de Provence","Rich, Creamy, Herbaceous",Vegetarian Options,"Coq au Vin, Ratatouille",Advanced
+Indian,$10 - $20,"Spices, Lentils, Basmati Rice","Spicy, Aromatic","Vegan, Vegetarian, Gluten-Free","Curry, Dal",Intermediate
+Italian,$15 - $30,"Olive Oil, Tomatoes, Parmesan Cheese","Savory, Herbal, Sweet",Vegetarian Options,"Pasta, Risotto",Intermediate
+Japanese,$20 - $40,"Soy Sauce, Rice, Seaweed","Umami, Savory, Light","Vegetarian, Gluten-Free Options","Sushi, Tempura",Advanced
+Mediterranean,$15 - $25,"Olive Oil, Lemon, Garlic","Fresh, Tangy, Herbaceous","Vegan, Vegetarian","Hummus, Greek Salad",Beginner
