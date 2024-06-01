@@ -21,3 +21,7 @@ function frenchOC(){
 function indianOC(){
     window.location.href = "./Indian/indian.html"
 }
+
+function stats(){
+    window.location.href = "./Stats/stats.html"
+}
