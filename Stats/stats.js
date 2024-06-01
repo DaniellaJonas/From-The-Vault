@@ -1,3 +1,5 @@
+chartIt();
+
 async function fetchDemo(){
     const response = await fetch("info.csv");
     const data = await response.text();
@@ -20,9 +22,10 @@ async function fetchDemo(){
 
 async function chartIt(){
     const data = await fetchDemo();
-    const ctx = document.getElementById('P').getContext('2d');
+    const ctx = document.getElementById('myChart')
+    // .getContext('2d');
     ctx.height = 50;
-    const P = new Chart(ctx, {
+    const myChart = new Chart(ctx, {
         type: 'bar',
         data: {
             labels: data.cuisines,
@@ -39,9 +42,7 @@ async function chartIt(){
                 y: {
                     beginAtZero: true
                 }
+                }
             }
-        }
-    });
+            });
 }
-
-chartIt();
