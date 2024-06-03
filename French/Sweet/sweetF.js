@@ -5,3 +5,7 @@ function Clafouti(){
 function Crepe(){
     window.location.href = "./Crêpe/crêpe.html"
 }
+
+function CB(){
+    window.location.href = "./Crème Brûlée/cb.html"
+}
