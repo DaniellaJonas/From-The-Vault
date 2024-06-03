@@ -21,3 +21,9 @@ body{
     color:rgb(141, 0, 24);
 
 }
+
+h3{
+    font-family: "Josefin Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+}
