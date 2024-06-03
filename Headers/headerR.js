@@ -39,6 +39,22 @@ h1 {
     font-size: 30px;
 }
 
+.buttons {
+    background-color: rgba(240, 230, 217, 0.425);
+    border-width: 0.07cm;
+    cursor: pointer;
+    border-color: rgb(141, 0, 24);
+    border-radius: 15%;
+    height: 30px;
+    width: 80px;
+    font-size: 15px;
+    font-family: "Nova Mono", monospace;
+    font-weight: 400;
+    font-style: normal;
+    color:rgb(141, 0, 24);
+
+}
+
 a:link {
     color: white;
 }
@@ -84,9 +100,9 @@ function showMenu() {
 }
 
 function click1() {
-    window.location.href = "../../index.html";
+    window.location.href = "../../../index.html";
 }
 
 function click2() {
-    window.location.href = "../../Stats/stats.html";
+    window.location.href = "../../../Stats/stats.html";
 }
