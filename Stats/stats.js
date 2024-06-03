@@ -79,7 +79,7 @@ async function chartIt1(){
 }
 
 async function chartIt2(){
-    const data = await fetchDemo(0,4);
+    const data = await fetchDemo(0,3);
     const ctx = document.getElementById('myChart2')
     // .getContext('2d');
     ctx.height = 50;
