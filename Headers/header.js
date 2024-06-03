@@ -91,9 +91,9 @@ function click1() {
 }
 
 function click2() {
-    window.location.href = "about.html";
+    window.location.href = "../Stats/stats.html";
 }
 
 function click3() {
-    window.location.href = "stats.html";
+    window.location.href = "about.html";
 }
