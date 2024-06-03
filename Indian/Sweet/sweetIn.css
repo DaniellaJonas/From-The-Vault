@@ -10,3 +10,18 @@ body{
     cursor: pointer;
 }
 
+.buttons {
+    background-color: rgba(240, 230, 217, 0.425);
+    border-width: 0.07cm;
+    cursor: pointer;
+    border-color: rgb(141, 0, 24);
+    border-radius: 15%;
+    height: 30px;
+    width: 80px;
+    font-size: 15px;
+    font-family: "Nova Mono", monospace;
+    font-weight: 400;
+    font-style: normal;
+    color:rgb(141, 0, 24);
+
+}

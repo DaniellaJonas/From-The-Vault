@@ -11,7 +11,6 @@ header.innerHTML = `
         <div align="right" id="buttons">
             <button onclick="click1()" class="buttons" id="home">Home</button>
             <button onclick="click2()" class="buttons" id="about">Stats</button>
-            <button onclick="click3()" class="buttons" id="chart">About</button>
         </div>
     </header>
 </div>
@@ -90,8 +89,4 @@ function click1() {
 
 function click2() {
     window.location.href = "../../Stats/stats.html";
-}
-
-function click3() {
-    window.location.href = "about.html";
 }
