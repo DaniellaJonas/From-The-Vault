@@ -4,7 +4,7 @@ async function fetchDemo(){
     const response = await fetch("info.csv");
     const data = await response.text();
     const cuisines = [];
-    const popularities = [];
+    const Costs = [];
     console.log(data);
 
     const table = data.trim().split('\n').slice(1);
@@ -13,11 +13,11 @@ async function fetchDemo(){
         const columns = row.split(',');
         const cuisine = columns[1];
         cuisines.push(cuisine);
-        const popularity = columns[3];
-        popularities.push(popularity);
+        const Cost = columns[3];
+        Costs.push(Cost);
     });
     
-    return { cuisines, popularities };
+    return { cuisines, Costs };
 }
 
 async function chartIt(){
@@ -30,8 +30,8 @@ async function chartIt(){
         data: {
             labels: data.cuisines,
             datasets: [{
-                label: 'Popularity',
-                data: data.popularities,
+                label: 'Cost',
+                data: data.Costs,
                 backgroundColor: 'rgba(255, 245, 232, 0.425)',
                 borderColor: 'rgb(141, 0, 24)',
                 borderWidth: 1

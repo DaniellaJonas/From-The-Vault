@@ -24,8 +24,6 @@ header.innerHTML = `
     background-color: rgba(255, 245, 232, 0.425);
     border-radius: 5px;
     border-color: rgb(141, 0, 24);
-    cursor: pointer;
-
 }
 
 .buttons:hover {
@@ -64,7 +62,6 @@ a:link {
         flex-wrap: wrap;
         right: 0;
         border-radius: 5px;
-        
     }
     .link {
         display: block;
@@ -77,6 +74,7 @@ a:link {
         justify-content: space-between;
         position: relative;
         align-content: right;
+        cursor: pointer;
     }
 }
 </style>`;
@@ -87,7 +85,7 @@ function showMenu() {
 }
 
 function click1() {
-    window.location.href = "../index.html";
+    window.location.href = "../../index.html";
 }
 
 function click2() {
