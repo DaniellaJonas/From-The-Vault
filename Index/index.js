@@ -6,10 +6,6 @@ function japaneseOC(){
     window.location.href = "./Japanese/japanese.html"
 }
 
-function chineseOC(){
-    window.location.href = "./Chinese/chinese.html"
-}
-
 function mediterraneanOC(){
     window.location.href = "./Mediterranean/mediterranean.html"
 }
