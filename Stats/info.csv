@@ -1,6 +1,6 @@
 Cuisine,Cost,Popularity,Healthiness,Complexity
-Indian,15,5,2,3
+Indian,15,3,2,3
 Japanese,40,4,4,5
 Mediterranean,25,3,4,2
-French,35,5,3,5
-Italian,25,4,5,3
+French,35,4,3,5
+Italian,25,5,5,3
