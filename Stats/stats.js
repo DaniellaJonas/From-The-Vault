@@ -35,7 +35,7 @@ async function chartIt(){
             labels: data.cuisines,
             datasets: [{
                 label: 'Cost',
-                data: data.Costs,
+                data: data.Cost,
                 backgroundColor: 'rgba(255, 245, 232, 0.425)',
                 borderColor: 'rgb(141, 0, 24)',
                 borderWidth: 1
@@ -52,7 +52,7 @@ async function chartIt(){
 }
 
 async function chartIt1(){
-    const data = await fetchDemo(0,3);
+    const data = await fetchDemo(0,2);
     const ctx = document.getElementById('myChart1')
     // .getContext('2d');
     ctx.height = 50;
@@ -62,7 +62,7 @@ async function chartIt1(){
             labels: data.cuisines,
             datasets: [{
                 label: 'Popularity',
-                data: data.Costs,
+                data: data.Popularity,
                 backgroundColor: 'rgba(255, 245, 232, 0.425)',
                 borderColor: 'rgb(141, 0, 24)',
                 borderWidth: 1
@@ -89,7 +89,7 @@ async function chartIt2(){
             labels: data.cuisines,
             datasets: [{
                 label: 'Healthiness',
-                data: data.Costs,
+                data: data.Healthiness,
                 backgroundColor: 'rgba(255, 245, 232, 0.425)',
                 borderColor: 'rgb(141, 0, 24)',
                 borderWidth: 1
@@ -116,7 +116,7 @@ async function chartIt3(){
             labels: data.cuisines,
             datasets: [{
                 label: 'Complexity',
-                data: data.Costs,
+                data: data.Complexity,
                 backgroundColor: 'rgba(255, 245, 232, 0.425)',
                 borderColor: 'rgb(141, 0, 24)',
                 borderWidth: 1
