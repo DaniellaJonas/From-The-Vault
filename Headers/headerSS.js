@@ -83,9 +83,9 @@ function showMenu() {
 }
 
 function click1() {
-    window.location.href = "../../../index.html";
+    window.location.href = "../../index.html";
 }
 
 function click2() {
-    window.location.href = "../../../Stats/stats.html";
+    window.location.href = "../../Stats/stats.html";
 }
