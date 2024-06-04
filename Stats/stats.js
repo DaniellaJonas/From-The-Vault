@@ -35,7 +35,7 @@ async function chartIt(){
             labels: data.cuisines,
             datasets: [{
                 label: 'Cost',
-                data: data.Cost,
+                data: data.Costs,
                 backgroundColor: 'rgba(255, 245, 232, 0.425)',
                 borderColor: 'rgb(141, 0, 24)',
                 borderWidth: 1
@@ -62,7 +62,7 @@ async function chartIt1(){
             labels: data.cuisines,
             datasets: [{
                 label: 'Popularity',
-                data: data.Popularity,
+                data: data.Costs,
                 backgroundColor: 'rgba(255, 245, 232, 0.425)',
                 borderColor: 'rgb(141, 0, 24)',
                 borderWidth: 1
@@ -89,7 +89,7 @@ async function chartIt2(){
             labels: data.cuisines,
             datasets: [{
                 label: 'Healthiness',
-                data: data.Healthiness,
+                data: data.Costs,
                 backgroundColor: 'rgba(255, 245, 232, 0.425)',
                 borderColor: 'rgb(141, 0, 24)',
                 borderWidth: 1
@@ -116,7 +116,7 @@ async function chartIt3(){
             labels: data.cuisines,
             datasets: [{
                 label: 'Complexity',
-                data: data.Complexity,
+                data: data.Costs,
                 backgroundColor: 'rgba(255, 245, 232, 0.425)',
                 borderColor: 'rgb(141, 0, 24)',
                 borderWidth: 1
