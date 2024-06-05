@@ -5,3 +5,7 @@ function Arancini(){
 function Risotto(){
     window.location.href = "./Risotto/risotto.html"
 }
+
+function Lasagna(){
+    window.location.href = "./Lasagna/lasagna.html"
+}
