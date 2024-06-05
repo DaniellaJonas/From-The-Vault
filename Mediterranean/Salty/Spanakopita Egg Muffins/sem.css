@@ -16,6 +16,10 @@ body {
     padding: 0;
 }
 
+#savedR{
+    width: 120px;
+}
+
 #content {
     display: flex;
     justify-content: center;
