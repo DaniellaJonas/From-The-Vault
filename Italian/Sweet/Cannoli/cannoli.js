@@ -14,7 +14,6 @@ function saved(){
 
     if(!recipes.find(recipe => recipe.name === "Cannoli")){
         recipes.push({name:"Cannoli", "link": ".././Italian/Sweet/Cannoli/cannoli.html", img: "https://houseofnasheats.com/wp-content/uploads/2023/06/Cannoli-Recipe-Square-1.jpg"});
-        // recipes["Cannoli"] = ".././Italian/Sweet/Cannoli/cannoli.html";
         localStorage.setItem("mySavedRecipes",JSON.stringify(recipes));
         console.log(recipes)
     }
