@@ -40,6 +40,10 @@ h1 {
     font-size: 30px;
 }
 
+#mySavedRecipes {
+    width: 140px;
+}
+
 .buttons {
     background-color: rgba(240, 230, 217, 0.425);
     border-width: 0.07cm;
