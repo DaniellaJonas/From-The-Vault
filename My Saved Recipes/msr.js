@@ -19,7 +19,6 @@ for (let i = 0; i < SavedRs.length; i++) {
     let linkButton = document.createElement('button'); 
     linkButton.appendChild(recipeLink);
 
-    // Customize the button
     linkButton.style.backgroundColor = 'rgba(240, 230, 217, 0.425)';
     linkButton.style.borderWidth = '0.07cm';
     linkButton.style.cursor = 'pointer';
@@ -45,6 +44,7 @@ for (let i = 0; i < SavedRs.length; i++) {
     let lineBreak2 = document.createElement('br');
     let lineBreak3 = document.createElement('br');
 
+    recipeLink.style.color = 'rgb(141, 0, 24)';
 
     recipeContainer.appendChild(recipeName); 
     recipeContainer.appendChild(linkButton); 
