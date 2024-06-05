@@ -21,3 +21,7 @@ function indianOC(){
 function stats(){
     window.location.href = "./Stats/stats.html"
 }
+
+function savedd(){
+    window.location.href = "./My Saved Recipes/msr.html"
+}

@@ -16,6 +16,10 @@ body {
     padding: 0;
 }
 
+#savedR{
+    width: 120px;
+}
+
 .ul1 {
     font-family: "Merriweather", serif;
     font-weight: 300;
