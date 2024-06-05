@@ -1,10 +1,9 @@
 const SavedRs = JSON.parse(localStorage.getItem("mySavedRecipes"));
 console.log(SavedRs);
 
-function clear() {
+function clearRecipes() {
     document.getElementById("recipeContainer").innerHTML = "";
     localStorage.clear();
-    alert("hi");
 }
 
 let recipeContainer = document.getElementById('recipeContainer');
