@@ -32,6 +32,10 @@ body {
     margin-right:300px;
 }
 
+#savedR{
+    width: 120px;
+}
+
 h1, h2 {
     font-family: "Satisfy", cursive;
     font-weight: 700;

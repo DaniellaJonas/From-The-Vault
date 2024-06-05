@@ -26,6 +26,10 @@ body {
     margin-right: 20px;
 }
 
+#savedR{
+    width: 120px;
+}
+
 #instructions {
     flex: 1;
     margin-left: 1%;
